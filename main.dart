@@ -1,5 +1,7 @@
 void main(){
 
-  final number=5;
+  int ?number;
+  print('this is my number $number');
+  number=5;
   print('this is my number $number');
 }
