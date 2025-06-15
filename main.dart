@@ -1,3 +1,4 @@
 void main(){
-print('hello world in dart programming by satvir');
+int number=35;
+print(number);
 }
