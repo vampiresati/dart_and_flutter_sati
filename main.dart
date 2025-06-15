@@ -7,5 +7,7 @@ void main(){
   sirhind mandi,
   """;
   //utf-16
-  print(city_address);
+  print('address $city_address');
+  int number=5;
+  print('this is my number $number');
 }
