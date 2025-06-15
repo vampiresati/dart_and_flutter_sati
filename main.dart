@@ -1,5 +1,5 @@
 void main(){
-int number=35;
-//datatype label_variable=value these are of 64 bit with +/- value
-print(number);
+  double d=2.99;
+  //datatype label=value(optional);64-bit floating-point number
+  print(d);
 }
