@@ -1,7 +1,6 @@
 void main(){
 
-  int ?number;
-  print('this is my number $number');
-  number=5;
-  print('this is my number $number');
+  List daysofweeks=["Sunday","Monday","Tuesday","Wednesday"];
+  //List is class
+  daysofweeks.forEach(print);
 }
