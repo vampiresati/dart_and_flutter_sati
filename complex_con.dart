@@ -10,5 +10,8 @@ void main(){
  print(name);
  //decode json
   Map<String, dynamic> items = json.decode(name.toString());
-  print('$items');
+  print(items);
+  print(items['first_name']);
+  print("This is the title: $items['first_name']");
+  print('This is the title: ${items['first_name']}');
 }
